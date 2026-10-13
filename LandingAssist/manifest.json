@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "LandingAssist.dll",
+  "author": "nocharts",
+  "name": "Landing Assist",
+  "uniqueName": "nocharts.LandingAssist",
+  "version": "0.1.0",
+  "owmlVersion": "2.16.3",
+  "dependencies": []
+}

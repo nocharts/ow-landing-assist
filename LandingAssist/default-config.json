@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
+  "enabled": true,
+  "settings": {
+    "landKey": {
+      "title": "Land Key",
+      "type": "text",
+      "value": "B",
+      "tooltip": "Press while aiming at the ground to land there. Press again to cancel. Examples: B, F7, Numpad2."
+    },
+    "landButton": {
+      "title": "Land Button (Controller)",
+      "type": "text",
+      "value": "DpadLeft",
+      "tooltip": "Press while aiming at the ground to land there. Press again to cancel. Options: DpadLeft, DpadRight, DpadUp, DpadDown, North, South, East, West, LeftShoulder, RightShoulder, LeftStick, RightStick, Select, Start, None."
+    },
+    "landingSpeed": {
+      "title": "Landing Speed",
+      "type": "selector",
+      "value": "Fast",
+      "options": [
+        "Gentle",
+        "Normal",
+        "Fast"
+      ],
+      "tooltip": "How quickly the ship comes down and how firmly it touches down."
+    },
+    "searchRadius": {
+      "title": "Search Radius (m)",
+      "type": "slider",
+      "value": 40,
+      "min": 10,
+      "max": 120,
+      "tooltip": "How far from where you aim the ship may look for a flat, clear spot."
+    },
+    "maxSlope": {
+      "title": "Steepest Ground Allowed (degrees)",
+      "type": "slider",
+      "value": 15,
+      "min": 5,
+      "max": 30,
+      "tooltip": "Spots steeper than this are skipped."
+    },
+    "cruiseClearance": {
+      "title": "Travel Height (m)",
+      "type": "slider",
+      "value": 120,
+      "min": 40,
+      "max": 400,
+      "tooltip": "How high above the landing spot the ship travels before coming down."
+    },
+    "maxRange": {
+      "title": "Aiming Range (m)",
+      "type": "slider",
+      "value": 3000,
+      "min": 500,
+      "max": 8000,
+      "tooltip": "How far away you can pick a landing spot."
+    },
+    "showBeacon": {
+      "title": "Show Landing Marker",
+      "type": "toggle",
+      "value": true,
+      "tooltip": "Shows a thin orange beam over the spot the ship is landing on."
+    },
+    "debugLog": {
+      "title": "Debug Logging",
+      "type": "toggle",
+      "value": false,
+      "tooltip": "Writes landing details to the mod log, for reporting problems."
+    }
+  }
+}
